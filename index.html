@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="start">
+      <div class="container">
+        <div class="start">
+          <a href="">Home</a>
+          <a href="">Favorite </a>
+          <a href="">Admin</a>
+        </div>
+      </div>
+    </section>
+
+    <header id="header">
+      <div class="container">
+        <!-- <center> -->
+        <div class="table-container">
+          <div class="todo-block">
+            <form id="task-form">
+              <input type="text" id="firstName" placeholder="Name" />
+              <input type="text" id="lastName" placeholder="Last Name" />
+              <input type="url" id="photo" placeholder="image URl" />
+              <div class="buttons">
+                <button type="button" onclick="addTask()">Create</button>
+                <button type="button" onclick="addTask()">Cancel</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="info-block">
+            <div id="output"></div>
+          </div>
+        </div>
+        <!-- </center> -->
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
